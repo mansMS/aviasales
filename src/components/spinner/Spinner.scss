@@ -1,0 +1,82 @@
+.SpinnerBlock {
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  overflow: hidden;
+  background: #e5e5e5;
+
+  .Spinner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+
+    @keyframes Spinner {
+      0% { opacity: 1 }
+      100% { opacity: 0 }
+    }
+    
+    div {
+      box-sizing: content-box;
+      left: 86.4px;
+      top: 43.2px;
+      position: absolute;
+      animation: Spinner linear 1.25s infinite;
+      background: #2196f3;
+      width: 7.2px;
+      height: 21.6px;
+      border-radius: 1.08px / 1.08px;
+      transform-origin: 3.6px 46.800000000000004px;
+
+      &:nth-child(1) {
+        transform: rotate(0deg);
+        animation-delay: -1.09375s;
+        background: #2196f3;
+      }
+
+      &:nth-child(2) {
+        transform: rotate(45deg);
+        animation-delay: -0.9375s;
+        background: #2196f3;
+      }
+
+      &:nth-child(3) {
+        transform: rotate(90deg);
+        animation-delay: -0.78125s;
+        background: #2196f3;
+      }
+
+      &:nth-child(4) {
+        transform: rotate(135deg);
+        animation-delay: -0.625s;
+        background: #2196f3;
+      }
+
+      &:nth-child(5) {
+        transform: rotate(180deg);
+        animation-delay: -0.46875s;
+        background: #2196f3;
+      }
+
+      &:nth-child(6) {
+        transform: rotate(225deg);
+        animation-delay: -0.3125s;
+        background: #2196f3;
+      }
+
+      &:nth-child(7) {
+        transform: rotate(270deg);
+        animation-delay: -0.15625s;
+        background: #2196f3;
+      }
+
+      &:nth-child(8) {
+        transform: rotate(315deg);
+        animation-delay: 0s;
+        background: #2196f3;
+      }
+    }
+  }
+}
