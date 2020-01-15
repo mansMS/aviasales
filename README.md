@@ -1,4 +1,4 @@
-# Тустовое задание Aviasales
+# Тестовое задание Aviasales
 
 Задание тут: https://github.com/KosyanMedia/test-tasks/tree/master/aviasales_frontend
 
