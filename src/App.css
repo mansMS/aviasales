@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.QrReader {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#QrReader__reader {
+  display: none;
+}
+
+.QrReader__button {
+  display: flex;
+  padding: 12px 15px;
+  color: red;
+  background-color: blue;
+  border-radius: 8px;
+}
+
+.QrReader__button .icon {
+  margin-right: 8px;
+}
+
+.QrReader__button span {
+  white-space: nowrap;
+}
+
+#QrReader__input-file {
+  display: none;
+}
+
+.qwerty {
+  display: block;
+  padding: 30px;
+}
+
+.icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  font-size: 24px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}

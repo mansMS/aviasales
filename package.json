@@ -1,37 +1,32 @@
 {
-  "homepage": "http://mansMS.github.io/aviasales",
-  "name": "aviasales",
+  "name": "tg-qr-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.0",
-    "@types/node": "^12.12.24",
-    "@types/react": "^16.9.17",
-    "@types/react-dom": "^16.9.4",
-    "@types/react-redux": "^7.1.5",
-    "gh-pages": "^2.2.0",
-    "node-sass": "^4.13.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-redux": "^7.1.3",
-    "react-scripts": "3.3.0",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0",
-    "typescript": "^3.7.4"
+    "canvas": "^2.11.2",
+    "clipboardy": "^4.0.0",
+    "copy-paste": "^1.5.3",
+    "cra-template": "1.2.0",
+    "html-to-image": "^1.11.13",
+    "html5-qrcode": "^2.3.8",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-qr": "^0.0.2",
+    "react-qr-code": "^2.0.15",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
